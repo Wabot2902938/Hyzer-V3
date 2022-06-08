@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, usedPrefix, command }) => {
 	if (!db.data.chats[m.chat].nsfw && m.isGroup) throw global.nsfw
-  res = await fetch(`https://api.xteam.xyz/randomimage/ass?APIKEY=apivproject`)
+  res = await fetch(`https://zenzapis.xyz/api/morensfw/ass?apikey=fiktod`)
   heum = await res.buffer()
   conn.sendButtonImg(m.chat, heum, 'wangy wangy wangy', watermark, 'NEXT', `${usedPrefix + command}`, m)
 }
