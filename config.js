@@ -13,9 +13,9 @@
 let fs = require('fs')
 let chalk = require('chalk')
 
-global.linkGC = ['https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV', 'https://chat.whatsapp.com/HBhy7rVae3o0PkIfkhvs2N'] // ganti jadi group lu
-global.owner = ['6287892711054', '6287892711054', '6287892711054'] // Masukan nomot kalian
-global.mods = ['6287892711054', '6287892711054'] // Moderator
+global.linkGC = ['https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'] // ganti jadi group lu
+global.owner = ['6281233738677', '6281233738677', '6281233738677'] // Masukan nomot kalian
+global.mods = ['6281233738677', '6281233738677'] // Moderator
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -40,8 +40,8 @@ global.APIKeys = { // APIKey Here
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto.xyz': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://api.xteam.xyz': 'cristian9407',
-  'https://api.lolhuman.xyz': 'Dawnfrostkey',
+  'https://api.xteam.xyz': 'a096946844357c1a',
+  'https://api.lolhuman.xyz': 'Fiktod',
   'https://caliphapi.com': 'ELYASXD',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
@@ -55,7 +55,7 @@ const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
   var sticker_name = 'hehe'
-  var sticker_author = 'by ShiroBotz'
+  var sticker_author = 'by SagiriBotz'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -79,7 +79,7 @@ global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mere
 global.eror = '_*Error*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = '©shirobotz' //change the watermark (beberapa harus manual)
+global.watermark = '©SagiriBotz' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/43a5bfd09e6c7e9a8055f.jpg'
