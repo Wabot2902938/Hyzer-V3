@@ -28,7 +28,7 @@ Nihh,, Buat apa sihh
 
   await m.reply('Sedang membuat...')
 
-  let buff = ('http://lolhuman.herokuapp.com/api/ktpmaker?apikey=Dawnfrostkey&nik=' + nik + '&prov=' + prov + '&kabu=' + kabu + '&name=' + name + '&ttl=' + ttl + '&jk=' + jk + '&jl=' + jl + '&rtrw=' + rtrw + '&lurah=' + lurah + '&camat=' + camat + '&agama=' + agama + '&nikah=' + nikah + '&kerja=' + kerja + '&warga=' + warga + '&until=' + until + '&img=' + img);
+  let buff = ('https://api.lolhuman.xyz/api/ktpmaker?apikey=Fiktod&nik=' + nik + '&prov=' + prov + '&kabu=' + kabu + '&name=' + name + '&ttl=' + ttl + '&jk=' + jk + '&jl=' + jl + '&rtrw=' + rtrw + '&lurah=' + lurah + '&camat=' + camat + '&agama=' + agama + '&nikah=' + nikah + '&kerja=' + kerja + '&warga=' + warga + '&until=' + until + '&img=' + img);
   let voss = await fetch(buff)
   let vuss = await ftype.fromStream(voss.body)
   if (vuss !== undefined) {
